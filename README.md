@@ -40,3 +40,37 @@ Packages used:
 - PCA plot (obesity dataset): sample clusters along PC1 & PC2
 - Exported all figures as high-resolution PNGs in the ```Results/``` folder
 
+## Results
+
+This figure highlights differentially expressed genes between TB-positive and TB-negative samples using log₂ fold change and adjusted p-values.
+
+Volcano Plot Preview:
+- ![Volcano Plot](Results/Volcano_Plot.png)
+
+
+This PCA visualization demonstrates sample separation based on transcriptomic profiles, helping identify clustering patterns related to obesity.
+
+PCA Plot Preview:
+- ![PCA Plot](Results/PCA_Plot.png)
+
+## How to Run This Project
+
+If you want to reproduce the figures or explore the analysis yourself, you can run the project locally in just a few steps.
+1. Clone the Repository
+- git clone https://github.com/<shreejyoti>/python_gene_expression_analysis.git
+- cd python_gene_expression_analysis
+- Or simply download the ZIP file from GitHub and open it on your machine.
+
+2. Install Required Python Packages
+- Make sure you have Python 3 installed, then install all dependencies:
+- pip install pandas numpy matplotlib seaborn scikit-learn statsmodels scipy
+
+3. Open the Jupyter Notebook
+- Navigate into the Code/ directory and launch the notebook:
+- jupyter notebook gene_expression_analysis.ipynb
+
+4. Run All Cells
+- Save the final plots into the Results/ folder
+- No extra configuration is needed, the workflow is fully reproducible.
+
+
