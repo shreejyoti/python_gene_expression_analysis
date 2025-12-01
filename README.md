@@ -57,7 +57,7 @@ PCA Plot Preview:
 
 If you want to reproduce the figures or explore the analysis yourself, you can run the project locally in just a few steps.
 1. Clone the Repository
-- git clone https://github.com/<shreejyoti>/python_gene_expression_analysis.git
+- git clone [https://github.com/<shreejyoti>/python_gene_expression_analysis.git](https://github.com/shreejyoti/python_gene_expression_analysis.git)
 - cd python_gene_expression_analysis
 - Or simply download the ZIP file from GitHub and open it on your machine.
 
